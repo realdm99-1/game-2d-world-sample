@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#app {
+  /* 캔버스 크기가 바뀌어도 중앙 정렬 유지 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
